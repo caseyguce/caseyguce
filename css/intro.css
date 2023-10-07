@@ -1,0 +1,41 @@
+#intro-section h1 { font-family: "FrauncesName"; }
+
+#intro-section h3
+{
+    font-style: italic;
+    color: var(--secondary-text);
+}
+
+#intro-section p
+{
+    color: var(--accent-color);
+}
+
+#intro-section .highlighted:hover
+{
+    color: var(--highlighted-hover);
+}
+
+#theme-switch
+{
+    padding: 5px 20px;
+    border: 1px solid var(--accent-text);
+    border-radius: 30px;
+    color: var(--accent-text);
+    background: transparent;
+    font-family: "Roboto Mono";
+    transition: 300ms;
+}
+
+#theme-switch:hover
+{
+    cursor: pointer;
+    background-color: var(--accent-text);
+    color: var(--primary-color);
+    transform: scale(1.05);
+}
+
+@media screen and (max-width: 800px)
+{
+    #intro-section h3 { font-weight: 400; }
+}

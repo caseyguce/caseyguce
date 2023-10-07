@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Casey Guce | Software Engineer</title>
+
+        <meta name="viewport" content="width=device-width,
+        initial-scale=1, maximum-scale=1, minimum-scale=1" />
+
+        <link rel="stylesheet" href="./css/fonts.css">
+        <link rel="stylesheet" href="./css/theme.css">
+        <link rel="stylesheet" href="./css/default.css">
+        <link rel="stylesheet" href="./css/navigation.css">
+        <link rel="stylesheet" href="./css/intro.css">
+        <link rel="stylesheet" href="./css/skills.css">
+        <link rel="stylesheet" href="./css/grid.css">
+        <link rel="stylesheet" href="./css/blog.css">
+        <link rel="stylesheet" href="./css/work.css">
+        <link rel="stylesheet" href="./css/footer.css">
+        <link rel="stylesheet" href="./css/fade.css">
+        <link rel="stylesheet" href="./css/popup.css">
+        <link rel="stylesheet" href="./css/preview.css">
+        <link rel="stylesheet" href="https://unpkg.com/aos@2.3.0/dist/aos.css">
+
+        <script src="./js/theme.js"></script>
+        <script src="./js/navigation.js"></script>
+        <script src="./js/onresize.js"></script>
+        <script src="./js/preview.js"></script>
+        <script src="./js/popup.js"></script>
+        <script src="./js/work.js"></script>
+        <script src="./js/blog.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    </head>
+    <body onresize="resetSizes()">
+        <!--<br />-->
+        <!--<section id="nav-section">-->
+        <!--    <button id="nav-button" onclick="toggleNav(this)" data-content="&#9776;"></button>-->
+        <!--    <div id="nav-div">-->
+        <!--        <ul id="nav-group">-->
+                    <!--<li><a href="#work-section">work</a></li>-->
+        <!--            <li><a href="#background-section">about</a></li>-->
+        <!--            <li><a href="#skills-section">skills</a></li>-->
+        <!--            <li><a href="#experience-section">experience</a></li>-->
+                    <!--<li><a href="#blog-section">blog</a></li>-->
+        <!--        </ul>-->
+        <!--    </div>-->
+        <!--    <a href="#intro-section">-->
+        <!--        <button id="back-to-top-button">back to top</button>-->
+        <!--    </a>-->
+        <!--</section>-->
+
+        <section id="intro-section">
+            <div class="section-container">
+                <button id="theme-switch" onclick="ThemeHandler.toggleTheme()">
+                    casey's magic button &#x1F920;
+                </button>
+                <h1>casey guce</h1>
+                <h3>software engineer</h3>
+                <ul>
+                    <li>
+                        <a href="mailto:casey.guce@gmail.com">
+                            <span class="highlighted">send a message</span>
+                        </a>
+                    </li>
+        <!--            <li>-->
+        <!--                <a href="https://github.com/caseyguce" target="_blank">github</a>-->
+        <!--            </li>-->
+        <!--            <li>-->
+        <!--                <a href="https://www.linkedin.com/in/caseyguce/" target="_blank">linkedin</a>-->
+        <!--            </li>-->
+                </ul>
+            </div>
+        </section>
+
+        <!--<section id="work-section">-->
+        <!--    <div class="section-container" data-aos="fade-up">-->
+        <!--        <h2>my work</h2>-->
+        <!--        <br />-->
+        <!--        <div class="grid-wrapper"></div>-->
+        <!--    </div>-->
+        <!--</section>-->
+
+        <!--<section id="background-section">-->
+        <!--    <div class="section-container" data-aos="fade-up">-->
+        <!--        <h2>background</h2>-->
+        <!--        <br />-->
+        <!--        <p>-->
+        <!--            After graduating from-->
+        <!--            <a href="https://www.mapua.edu.ph/" target="_blank">Map&uacute;a University</a>,-->
+        <!--            I immediately joined-->
+        <!--            <a href="https://www.netsuite.com/" target="_blank">Oracle NetSuite</a>-->
+        <!--            as an Associate Software Engineer, eventually being promoted to <strong>Software Engineer</strong>.-->
+        <!--        </p>-->
+        <!--        <p>-->
+        <!--            I co-authored and later presented-->
+        <!--            <a href="https://dl.acm.org/citation.cfm?id=3313968" target="_blank">-->
+        <!--                Assistive Gamification and Speech Recognition E-Tutor System for Speech Impaired Students</a>,-->
+        <!--            published February 24, 2019 at the-->
+        <!--            <strong>International Conference on Image and Graphics Processing</strong> in Singapore.-->
+        <!--        </p>-->
+                <!--<p>-->
+                <!--    Despite the stress, I also love joining hackathons. See my <a href="#blog-section">blog posts.</a>-->
+                <!--</p>-->
+        <!--        <p>-->
+        <!--            Outside of work, I like to read books and watch films. Some of the ones that stuck with me-->
+        <!--            are Milan Kundera's The Unbearable Lightness of Being and Netflix's The Crown. I also love-->
+        <!--            listening to music. A single I'm really into is Ros&eacute;'s-->
+        <!--            <a href="https://open.spotify.com/track/3MJhPqL2IgGs7gHEB2M35q?autoplay=true" target="_blank">Hard to Love</a>.-->
+        <!--            Do send me a book, film, or song recommendation, I'd really love that.-->
+        <!--        </p>-->
+        <!--    </div>-->
+        <!--</section>-->
+
+        <!--<section id="skills-section">-->
+        <!--    <div class="section-container" data-aos="fade-up">-->
+        <!--        <h2>skills</h2>-->
+        <!--        <br />-->
+        <!--        <h4>I specialize in <span class="highlighted">JavaScript</span>, HTML, and CSS.</h4>-->
+        <!--        <div class="grid-wrapper">-->
+        <!--            <div class="grid-item">-->
+        <!--                <p>I also work with:</p>-->
+        <!--                <ul>-->
+        <!--                    <li>SQL</li>-->
+        <!--                    <li>PHP</li>-->
+        <!--                    <li>jQuery</li>-->
+        <!--                    <li>SuiteCloud Development Framework (SDF)</li>-->
+        <!--                    <li>Perforce</li>-->
+        <!--                </ul>-->
+        <!--            </div>-->
+        <!--            <div class="grid-item">-->
+        <!--                <p>Recently, I have been working with:</p>-->
+        <!--                <ul>-->
+        <!--                    <li>React</li>-->
+        <!--                    <li>Git</li>-->
+        <!--                    <li>GitHub</li>-->
+        <!--                </ul>-->
+        <!--            </div>-->
+        <!--            <div class="grid-item">-->
+        <!--                <p>In the past, I have worked with (i might need a refresher on these):</p>-->
+        <!--                <ul>-->
+        <!--                    <li>Microsoft .NET Framework</li>-->
+        <!--                    <li>Google Analytics</li>-->
+        <!--                    <li>Google Tag Manager</li>-->
+        <!--                    <li>WordPress</li>-->
+        <!--                </ul>-->
+        <!--            </div>-->
+        <!--        </div>-->
+        <!--    </div>-->
+        <!--</section>-->
+
+        <!--<section id="experience-section">-->
+        <!--    <div class="section-container" data-aos="fade-up">-->
+        <!--        <h2>experience</h2>-->
+        <!--        <br />-->
+        <!--        <h5>I am a Software Engineer at-->
+        <!--            <a href="https://netsuite.com" target="_blank">Oracle NetSuite Corporation</a>.-->
+        <!--        </h5>-->
+        <!--        <p>-->
+        <!--            I create solutions on the NetSuite platform, writing clean code with-->
+        <!--            maintainability in mind. I translate user requirements into technical solutions-->
+        <!--            while also analyzing system specifications, information, and business-->
+        <!--            processes to build enhancements and resolve bugs quickly.-->
+        <!--        </p>-->
+        <!--        <br />-->
+        <!--        <h6>I was an intern at-->
+        <!--            <a href="https://cambridge.org" target="_blank">Cambridge University Press</a>.-->
+        <!--        </h6>-->
+        <!--        <p>-->
+        <!--            As an intern in the Central Web Services department,-->
+        <!--            I explored Web Marketing solutions such as Search Engine-->
+        <!--            Optimization (SEO). I also tried out CMS alternatives of the-->
+        <!--            company's e-commerce site due to plans of a re-platforming.-->
+        <!--        </p>-->
+        <!--        <br />-->
+        <!--        <h6>I attended-->
+        <!--            <a href="https://www.mapua.edu.ph/" target="_blank">Map&uacute;a University</a>.</h6>-->
+        <!--        <p>-->
+                    
+        <!--            I graduated with a degree of-->
+        <!--            <strong>Bachelor of Science in Information Technology.</strong>-->
+        <!--            A consistent academic scholar, I specialized in Microsoft .NET Programming. I was also an active officer-->
+        <!--            of the WebMasters Guild where I was the Chief Publications Officer.-->
+        <!--        </p>-->
+        <!--    </div>-->
+        <!--</section>-->
+
+        <!--<section id="blog-section">-->
+        <!--    <div class="section-container" data-aos="fade-up">-->
+        <!--        <h2>blog</h2>-->
+        <!--        <br />-->
+        <!--        <div class="grid-wrapper"></div>-->
+        <!--    </div>-->
+        <!--</section>-->
+
+        <!--<section id="footer-section">-->
+        <!--    <div class="section-container">-->
+        <!--        <q>-->
+        <!--            is not an event in fact more significant-->
+        <!--            and noteworthy the greater the number-->
+        <!--            of fortuities necessary to bring it about?-->
+        <!--        </q>-->
+        <!--    </div>-->
+        <!--</section>-->
+        <!--<script src="./js/default.js"></script>-->
+    </body>
+</html>

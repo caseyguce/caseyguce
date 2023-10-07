@@ -1,0 +1,33 @@
+#skills-section .grid-wrapper
+{
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#skills-section .grid-item:hover
+{
+    transform: none;
+    cursor: auto;
+}
+
+
+#skills-section ul li
+{
+    display: block;
+    margin: 5px;
+}
+
+
+#skills-section ul li::before
+{
+    content: "\276F";
+    color: var(--accent-text);
+    font-weight: bold;
+    display: inline-block;
+    width: 15px;
+    margin-left: -15px;
+}
+
+@media screen and (max-width: 800px)
+{
+    #skills-section .grid-wrapper { grid-template-columns: 1fr; }
+}

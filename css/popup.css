@@ -1,0 +1,183 @@
+.pop-up
+{
+    position: fixed !important;
+    z-index: 5 !important;
+
+    left: 50%;
+    top: 50%;
+    margin-left: -41%;
+    margin-top: -17%;
+
+    width: 80%;
+    height: 75%;
+
+    background: var(--cover-color-solid);
+    padding: 20px;
+
+    text-align: center;
+    overflow: hidden scroll;
+    
+    opacity: 1;
+}
+
+.pop-up #pop-up-title-image
+{
+    width: 50%;
+    display: inline-block;
+}
+
+.pop-up #pop-up-close-btn
+{
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 10px;
+
+    background: transparent;
+    border: none;
+    
+    color: var(--header-text);
+    font-family: "Roboto";
+    font-size: 24px;
+    transition: 200ms;
+}
+
+.pop-up #pop-up-close-btn:hover
+{
+    cursor: pointer;
+    transform: scale(1.05);
+    color: var(--accent-text);
+}
+
+.pop-up .summary-points
+{
+    padding: 0 20%;
+    text-align: justify;
+}
+
+.pop-up .summary-points ol
+{
+    text-align: left;
+    display: block;
+    margin: auto;
+    list-style-type: none;
+}
+
+.pop-up .summary-points li
+{
+    display: block;
+}
+
+.pop-up .pop-up-content
+{
+    padding: 0 15%;
+    text-align: justify;
+}
+
+@media screen and (max-width: 1200px)
+{
+    .pop-up
+    {
+        margin-top: -16%;
+    }
+
+    .pop-up #pop-up-title-image
+    {
+        width: 80%;
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width: 1100px)
+{
+    .pop-up
+    {
+        margin-top: -18%;
+    }
+
+    .pop-up #pop-up-title-image
+    {
+        width: 80%;
+        display: inline-block;
+    }
+
+    .pop-up .pop-up-content
+    {
+        padding: 0 10%;
+    }
+}
+
+@media screen and (max-width: 1000px)
+{
+    .pop-up
+    {
+        margin-top: -24%;
+    }
+
+    .pop-up #pop-up-title-image
+    {
+        width: 80%;
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width: 900px)
+{
+    .pop-up
+    {
+        margin-top: -28%;
+    }
+
+    .pop-up #pop-up-title-image
+    {
+        width: 80%;
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width: 800px)
+{
+    .pop-up
+    {
+        margin-top: -31%;
+    }
+
+    .pop-up #pop-up-title-image
+    {
+        width: 80%;
+        display: inline-block;
+    }
+
+    .pop-up .pop-up-content
+    {
+        padding: 0 5%;
+    }
+}
+
+@media screen and (max-width: 700px)
+{
+    .pop-up
+    {
+        margin-top: -40%;
+    }
+
+    .pop-up #pop-up-title-image
+    {
+        width: 80%;
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width: 600px)
+{
+    .pop-up
+    {
+        margin-top: -50%;
+    }
+
+    .pop-up #pop-up-title-image
+    {
+        width: 100%;
+        display: inline-block;
+    }
+}

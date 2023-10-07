@@ -1,0 +1,37 @@
+.grid-wrapper
+{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+
+.grid-item
+{
+    padding: 10px;
+    margin: 10px;
+    transition: 200ms;
+}
+
+.grid-item:hover
+{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.grid-item-links ul
+{
+    padding: 0;
+    font-size: 12px;
+    text-transform: lowercase;
+    letter-spacing: 1px;
+}
+
+.grid-item-links ul li
+{
+    display: inline;
+    margin: 0 3px 0 0;
+}
+
+@media screen and (max-width: 1000px)
+{
+    .grid-wrapper { grid-template-columns: 4fr; }
+}

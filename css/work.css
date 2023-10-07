@@ -1,0 +1,31 @@
+#work-section .grid-item
+{
+    padding: 0;
+    border: 0;
+}
+
+#work-section .grid-item:hover
+{
+    cursor: auto;
+    border: 0;
+}
+
+#work-section .preview
+{
+    background-size: cover;
+}
+
+#work-section .overlay
+{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background: var(--cover-color);
+    border-radius: 5px;
+}
+
+#work-section .textArea
+{
+    z-index: 10;
+    padding: 30px;
+}

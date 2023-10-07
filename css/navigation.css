@@ -1,0 +1,94 @@
+#nav-section
+{
+    border: none;
+    padding: 0;
+    background: transparent;
+    margin: 0 20px 0 0;
+}
+
+#nav-section #nav-div
+{
+    position: fixed;
+    visibility: visible;
+    transition: 300ms;
+    background: var(--cover-color);
+    width: 100%;
+    z-index: 1;
+}
+
+#nav-section #nav-group
+{
+    float: right;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+
+#nav-section #nav-group li
+{
+    display: inline;
+    margin: 0 20px;
+    transition: 200ms;
+}
+
+#nav-section #nav-group li:hover
+{
+    transform: scale(1.1);
+}
+
+#nav-section button
+{
+    position: fixed;
+    right: 0;
+
+    background: transparent;
+    border: none;
+    
+    color: var(--header-text);
+    transition: 200ms;
+    z-index: 2;
+}
+
+#nav-section button:hover
+{
+    cursor: pointer;
+    transform: scale(1.05);
+    color: var(--accent-text);
+}
+
+#nav-section #nav-group li a { color: var(--secondary-text); }
+#nav-section #nav-group li a:hover { color: var(--accent-text); }
+#nav-section #nav-button::after { content: attr(data-content); }
+
+#nav-section #nav-button
+{
+    visibility: hidden;
+    top: 0;
+
+    font-size: 40px;
+    font-weight: 900;
+}
+
+#nav-section #back-to-top-button
+{
+    bottom: 0;
+    margin: 0 10px 10px 0;
+}
+
+@media screen and (max-width: 800px)
+{
+    #nav-section #nav-div
+    {
+        margin-top: -300px;
+        padding: 20px 20px;
+        right: 0;
+        width: initial;
+    }
+
+    #nav-section #nav-group li
+    {
+        display: block;
+        margin: 20px 0;
+    }
+
+    #nav-section #nav-button { visibility: visible; }
+}
