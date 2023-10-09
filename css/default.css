@@ -6,6 +6,7 @@ html, body
     scroll-behavior: smooth;
     transition: 200ms;
     background-color: var(--primary-color);
+    overflow: hidden;
 }
 
 ::selection
@@ -122,14 +123,23 @@ section
 
 @media screen and (max-width: 600px)
 {
-    #intro-section
+    /* #intro-section
     {
         padding: 0;
-    }
+    } */
     
     .section-container
     {
         width: 80%;
+    }
+
+    h1
+    {
+        font-size: 48px;
+    }
+    h3
+    {
+        font-size: 32px;
     }
 }
 
