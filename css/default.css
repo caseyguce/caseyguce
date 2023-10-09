@@ -111,6 +111,7 @@ section
 #intro-section
 {
     background-color: var(--primary-color);
+    padding: 25vh 0 40vh;
 }
 
 #blog-section
