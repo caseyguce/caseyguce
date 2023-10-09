@@ -11,7 +11,7 @@ const ThemeHandler = {
 
         if (toggleIsOnLoad)
         {
-            this.setTheme(currentTheme)
+            this.setTheme(currentTheme ?? "theme-light");
         }
         else if (currentTheme === "theme-dark")
         {
