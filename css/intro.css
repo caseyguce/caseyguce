@@ -25,6 +25,7 @@
     background: transparent;
     font-family: "Roboto Mono";
     transition: 300ms;
+    margin: 5px 0;
 }
 
 #theme-switch:hover

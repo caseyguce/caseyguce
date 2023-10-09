@@ -5,6 +5,7 @@ html, body
     font-family: "Roboto", sans-serif;
     scroll-behavior: smooth;
     transition: 200ms;
+    background-color: var(--primary-color);
 }
 
 ::selection
@@ -83,7 +84,7 @@ section
 {
     width: 100%;
     overflow: hidden;
-    padding: 20vh 0 35vh 0;
+    padding: 25vh 0 35vh 0;
 }
 
 .section-container
@@ -104,8 +105,7 @@ section
 
 #intro-section
 {
-    background-color: var(--primary-color);
-    padding: 5vh 0 70vh 0;
+    /* background-color: var(--primary-color); */
 }
 
 #blog-section
